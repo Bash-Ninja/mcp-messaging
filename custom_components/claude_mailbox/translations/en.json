@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Claude Mailbox",
+        "description": "Select the persons who may exchange messages. Each one needs a linked Home Assistant user.",
+        "data": { "participants": "Participants" }
+      }
+    },
+    "error": {
+      "too_few_participants": "Select at least two persons.",
+      "person_without_user": "Every selected person must be linked to a Home Assistant user.",
+      "duplicate_name": "The selected persons must have different names."
+    },
+    "abort": { "single_instance_allowed": "Claude Mailbox is already configured." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Claude Mailbox",
+        "description": "Select the persons who may exchange messages. Each one needs a linked Home Assistant user.",
+        "data": { "participants": "Participants" }
+      }
+    },
+    "error": {
+      "too_few_participants": "Select at least two persons.",
+      "person_without_user": "Every selected person must be linked to a Home Assistant user.",
+      "duplicate_name": "The selected persons must have different names."
+    }
+  }
+}

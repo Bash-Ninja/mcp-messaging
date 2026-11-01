@@ -1,0 +1,18 @@
+{
+  "domain": "claude_mailbox",
+  "name": "Claude Mailbox",
+  "codeowners": [
+    "@Bash-Ninja"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "person"
+  ],
+  "documentation": "https://github.com/Bash-Ninja/mcp-messaging",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/Bash-Ninja/mcp-messaging/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

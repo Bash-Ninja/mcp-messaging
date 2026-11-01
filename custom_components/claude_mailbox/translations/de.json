@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Claude Mailbox",
+        "description": "Wähle die Personen aus, die Nachrichten austauschen dürfen. Jede braucht ein verknüpftes Home-Assistant-Konto.",
+        "data": { "participants": "Teilnehmer" }
+      }
+    },
+    "error": {
+      "too_few_participants": "Wähle mindestens zwei Personen aus.",
+      "person_without_user": "Jede ausgewählte Person muss mit einem Home-Assistant-Konto verknüpft sein.",
+      "duplicate_name": "Die ausgewählten Personen müssen unterschiedliche Namen haben."
+    },
+    "abort": { "single_instance_allowed": "Claude Mailbox ist bereits eingerichtet." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Claude Mailbox",
+        "description": "Wähle die Personen aus, die Nachrichten austauschen dürfen. Jede braucht ein verknüpftes Home-Assistant-Konto.",
+        "data": { "participants": "Teilnehmer" }
+      }
+    },
+    "error": {
+      "too_few_participants": "Wähle mindestens zwei Personen aus.",
+      "person_without_user": "Jede ausgewählte Person muss mit einem Home-Assistant-Konto verknüpft sein.",
+      "duplicate_name": "Die ausgewählten Personen müssen unterschiedliche Namen haben."
+    }
+  }
+}
